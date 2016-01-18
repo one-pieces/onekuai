@@ -1,0 +1,29 @@
+<div class="base">
+    <nav class="navbar navbar-vertical-left">
+        <ul class="nav navbar-nav">
+          <li>
+            <a href="/" ui-sref="base.index">
+              <i class="fa fa-fw fa-2x fa-comments"></i> 
+              <span>Menu 1</span>
+            </a>
+          </li>
+          <li>
+            <a href="/" ui-sref="base.login">
+              <i class="fa fa-fw fa-2x fa-download "></i> 
+              <span>Menu 2</span>
+            </a>
+          </li>
+          <li>
+            <a href="/" ui-sref="base.profile">
+              <i class="fa fa-fw fa-2x fa-user"></i> 
+              <span>Menu 3</span>
+            </a>
+          </li>
+        </ul>
+    </nav>
+    <aside class="htmleaf-container">
+        <div class="nano htmleaf-content bgcolor-8">
+            <ui-view class="nano-content"></ui-view>
+        </div>
+    </aside>
+</div>
